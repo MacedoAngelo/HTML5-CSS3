@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>   
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in(polegada), px, pt, pc(paica)
+
+            Medidas Relativas
+            em(altura M (Maisculo), 
+            ex(altura X), 
+            rem(Tamanho da fonte configurada no BODY), VW(de acordo com a largura da resolução do monitor), 
+            vh(de acordo com a altura da resolução do monitor), 
+            %
+            RECOMENDADAS -> PX, EM
+            16px = 1em
+            */
+            font-size: 1em ;
+            /* lighter, normal, bold, bolder */
+            font-weight: normal ;
+            font-style: normal; /* Estilo da fonte, italico, oblico, entc */
+            text-decoration: none; /* Estilo sublinhado */
+        }
+        h1 {
+            font-family: 'work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            /* shorthand font (Para simplificar) 
+            - font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em 'work Sans', sans-serif; ;
+            
+        }
+        h2 {
+            font: bold 2em 'work Sans' ;
+        }
+       
+    </style>          
+</head>
+<body> 
+    <h1>Trabalhando com Fontes</h1>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium aspernatur omnis rem voluptate provident consequatur, ullam nulla, aliquam iure blanditiis nam numquam dolores consectetur suscipit rerum neque veritatis cumque? Totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed consequuntur commodi harum velit veritatis voluptatibus sunt dolore dignissimos porro assumenda. Ipsa soluta voluptatem magni ab, vel fugit a et quos.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique porro autem nesciunt vitae suscipit, eius quas sunt aperiam illum magni amet! Adipisci totam ipsum officia sapiente, suscipit exercitationem cupiditate qui?</p>
+
+    <h2>Substítulo do exercício</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius est perferendis soluta dolore, optio, numquam repellendus maxime tempore hic iste temporibus, non provident. Ea a distinctio dignissimos eius. Fugit, et! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut illo et quae nam voluptatum! Accusamus inventore culpa sit temporibus sed accusantium saepe, animi necessitatibus sequi? Qui, numquam minus. Quas, laudantium.</p>
+
+
+
+
+
+</body>
+</html>
